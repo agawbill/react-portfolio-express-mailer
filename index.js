@@ -65,7 +65,7 @@ app.post("/email", (req, res) => {
     } else {
       console.log(response);
       smtpTransport.close();
-      return res.send("success");
+      return res.send({ success: "true" });
     }
   });
 });
