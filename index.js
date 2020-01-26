@@ -10,6 +10,12 @@ app.use(
   })
 );
 
+app.use(express.static(path.join(__dirname, "build")));
+
+app.get("/*", (req, res) => {
+  res.sendFile(path.join(__dirname, "build", "index.html"));
+});
+
 app.post("/email", (req, res) => {
   const nodemailer = require("nodemailer");
   const { google } = require("googleapis");
