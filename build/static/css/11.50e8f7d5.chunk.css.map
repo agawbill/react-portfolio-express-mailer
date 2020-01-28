@@ -1,1 +1,0 @@
-{"version":3,"sources":["Contact.module.css"],"names":[],"mappings":"AAAA,sBACE,UACF,CAEA,yBACE,sBACE,aAAc,CACd,SACF,CACF","file":"11.50e8f7d5.chunk.css","sourcesContent":[".Email {\n  width: 100%;\n}\n\n@media (min-width: 769px) {\n  .Email {\n    margin: 0 auto;\n    width: 60%;\n  }\n}\n"]}
