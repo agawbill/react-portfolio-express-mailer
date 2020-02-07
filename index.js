@@ -25,6 +25,8 @@ app.post("/email", (req, res) => {
   const { google } = require("googleapis");
   const OAuth2 = google.auth.OAuth2;
   const { clientId, clientSecret, redirectUrl, refreshToken } = keys();
+  console.log(clientId);
+
   const oauth2Client = new OAuth2(clientId, clientSecret, redirectUrl);
 
   const [name, email, subject, category, message] = [
