@@ -1,0 +1,2 @@
+(window.webpackJsonpclient=window.webpackJsonpclient||[]).push([[12],{600:function(n,e,t){"use strict";t.r(e);var o=t(0),c=t.n(o),w=t(51);e.default=function(){return Object(o.useEffect)(function(){window.open("https://storage.cloud.google.com/www.anthonygawbill.com/anthony-gawbill-resume.pdf")}),c.a.createElement(w.a,{to:"/"})}}}]);
+//# sourceMappingURL=12.6dd3100e.chunk.js.map
