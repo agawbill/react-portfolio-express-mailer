@@ -1,9 +1,12 @@
 import express from "express";
 import path from "path";
 import keys from "./config/keys";
+import sslRedirect from "heroku-ssl-redirect";
 
 const app = express();
 const port = process.env.PORT || 5000;
+
+app.use(sslRedirect());
 
 app.use(
   express.json({
