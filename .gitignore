@@ -82,6 +82,7 @@ ssl
 nbproject
 public/uploads/*
 !public/uploads/.gitkeep
+config/prod.js
 
 ############################
 # Node.js
@@ -102,3 +103,5 @@ node_modules
 
 testApp
 coverage
+
+
