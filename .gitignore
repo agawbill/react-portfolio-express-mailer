@@ -83,6 +83,7 @@ nbproject
 public/uploads/*
 !public/uploads/.gitkeep
 config/prod.js
+config/dev.js
 
 ############################
 # Node.js
